@@ -87,6 +87,10 @@ class UserService extends BaseService
         return $this->response([], 'Something went wrong');
     }
 
+    /**
+     * @param Request $request
+     * @return JsonResponse
+     */
     public function resetEmail(Request $request)
     {
         $validator = Validator::make($request->all(), [

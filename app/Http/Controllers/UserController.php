@@ -45,6 +45,10 @@ class UserController extends Controller
         return $this->_userService->logout($request);
     }
 
+    /**
+     * @param Request $request
+     * @return JsonResponse
+     */
     public function resetEmail(Request $request)
     {
         return $this->_userService->resetEmail($request);
