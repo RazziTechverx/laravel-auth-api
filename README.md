@@ -37,6 +37,10 @@ Run the database migrations and seeder (Set the database connection in .env befo
 
     php artisan migrate --seed
 
+Install the passport for OAuth2
+
+    php artisan passport:install
+
 Run the command to clear cache
 
     php artisan cache:clear
