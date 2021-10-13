@@ -20,22 +20,22 @@ class UserSeeder extends Seeder
         DB::table('users')->insert([
             [
                 'uuid'              => Uuid::uuid4()->toString(),
-                'name'              => 'razzi aftab',
+                'name'              => 'Razzi Aftab',
                 'email'             => 'razzi.aftab@techverx.com',
                 'created_at'        => Carbon::now(),
                 'updated_at'        => Carbon::now()
             ],
             [
                 'uuid'              => Uuid::uuid4()->toString(),
-                'name'              => 'zubair khan',
-                'email'             => 'razzi.aftab+1@techverx.com',
+                'name'              => 'Rikka Nextvacay',
+                'email'             => 'rikka@nextvacay.com',
                 'created_at'        => Carbon::now(),
                 'updated_at'        => Carbon::now()
             ],
             [
                 'uuid'              => Uuid::uuid4()->toString(),
-                'name'              => 'Muhammad Suleman',
-                'email'             => 'razzi.aftab+2@techverx.com',
+                'name'              => 'Hassan Afaq',
+                'email'             => 'razzi.aftab+1@techverx.com',
                 'created_at'        => Carbon::now(),
                 'updated_at'        => Carbon::now()
             ],
