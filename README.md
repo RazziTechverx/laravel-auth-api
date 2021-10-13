@@ -33,9 +33,9 @@ Setup your local database with these credentials
     DB_USERNAME=root
     DB_PASSWORD=123
 
-Run the database migrations (Set the database connection in .env before migrating)
+Run the database migrations and seeder (Set the database connection in .env before migrating)
 
-    php artisan migrate
+    php artisan migrate --seed
 
 Run the command to clear cache
 
